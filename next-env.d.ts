@@ -7,8 +7,7 @@
 // https://nextjs.org/docs/basic-features/typescript#types
 
 declare module '*.svg' {
-    import React from 'react';
-    const SVG: React.FC<React.SVGProps<SVGSVGElement>>;
-    export default SVG;
-  }
-  
+  import React from 'react';
+  const SVG: React.FC<React.SVGProps<SVGSVGElement>>;
+  export default SVG;
+}
